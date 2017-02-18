@@ -1,0 +1,26 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh Rules\Desktop\CS JAVA CODE\Lab3
+> run FutureValues
+
+
+Lab 3 written by VILVESH SRINIVASAN
+
+Enter values to calculate compound interest
+
+Enter your Present Value ($): 1000
+
+Enter your Interest rate (%): 5
+Enter the number of years: 1
+
+The future value of your account: $1050.00 
+
+
+Enter values to calculate the future value of an annuity
+
+Enter your yearly payment ($): 100
+
+Enter your Interest rate (%): 5
+
+Enter the number of years: 3
+
+The future value of the annuity: $315.25 
+> 

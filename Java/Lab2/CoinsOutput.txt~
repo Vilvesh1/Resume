@@ -1,0 +1,16 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh Rules\Desktop\CS JAVA CODE
+> run Coins
+
+Enter the amount of quarters:
+ [DrJava Input Box]
+Enter the amount of dimes:
+ [DrJava Input Box]
+Enter the amount of nickels:
+ [DrJava Input Box]
+Enter the amount of pennies:
+ [DrJava Input Box]
+Number of Coins = 4
+Total Value = $0.41
+ [DrJava Input Box]
+You have: 0 quarters 2 dimes 0 nickels 3 pennies 
+> 

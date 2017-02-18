@@ -1,0 +1,44 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh1\Documents\CS JAVA CODE\project2
+> run LoanPaymentCal
+
+
+Project 2 written by VILVESH SRINIVASAN
+
+User type in the format inside the parenthesis, (amount($): # years: #)
+ [amount($): 10000 years: 2]
+
+Loan amount: $10000.00
+Loan period: 2 years
+Loan rate: 3.00%
+Monthly payment: $429.81
+
+
+Month      Balance      Payment    Remaining
+
+    1     10025.00       429.81      9595.19
+    2      9619.18       429.81      9189.36
+    3      9212.34       429.81      8782.53
+    4      8804.48       429.81      8374.67
+    5      8395.61       429.81      7965.79
+    6      7985.71       429.81      7555.90
+    7      7574.79       429.81      7144.97
+    8      7162.84       429.81      6733.02
+    9      6749.86       429.81      6320.04
+   10      6335.84       429.81      5906.03
+   11      5920.80       429.81      5490.99
+   12      5504.71       429.81      5074.90
+   13      5087.59       429.81      4657.78
+   14      4669.42       429.81      4239.61
+   15      4250.21       429.81      3820.40
+   16      3829.95       429.81      3400.13
+   17      3408.63       429.81      2978.82
+   18      2986.27       429.81      2556.46
+   19      2562.85       429.81      2133.04
+   20      2138.37       429.81      1708.56
+   21      1712.83       429.81      1283.02
+   22      1286.22       429.81       856.41
+   23       858.55       429.81       428.74
+   24       429.81       429.81         0.00
+
+Total payment amount: $10315.49
+> 

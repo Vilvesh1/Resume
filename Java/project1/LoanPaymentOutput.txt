@@ -1,0 +1,42 @@
+Welcome to DrJava.  Working directory is F:\Finished CS\Project1
+> run LoanPayment
+
+
+Project 1 written by VILIVESH SRINIVASAN
+The initial loan is $1000.0.
+The monthly payment is $50.0
+Enter the annual interest rate percentage 15
+
+
+
+Months                    Balance                   
+1                         $962.50                    
+2                         $924.53                    
+3                         $886.09                    
+4                         $847.16                    
+5                         $807.75                    
+6                         $767.85                    
+7                         $727.45                    
+8                         $686.54                    
+9                         $645.12                    
+10                        $603.19                    
+11                        $560.73                    
+12                        $517.74                    
+Enter the initial balance: 5000
+Enter the annual interest rate percentage: 12
+Enter the monthly payment: 400 
+
+Enter the number of months:  8
+
+
+
+Months                    Balance                   Payment                                            Remaining                                                                    
+1                         $5050.00                   $400.00                                             $4650.00                                                                      
+2                         $4696.50                   $400.00                                             $4296.50                                                                      
+3                         $4339.47                   $400.00                                             $3939.47                                                                      
+4                         $3978.86                   $400.00                                             $3578.86                                                                      
+5                         $3614.65                   $400.00                                             $3214.65                                                                      
+6                         $3246.79                   $400.00                                             $2846.79                                                                      
+7                         $2875.26                   $400.00                                             $2475.26                                                                      
+8                         $2500.02                   $400.00                                             $2100.02                                                                      
+> 

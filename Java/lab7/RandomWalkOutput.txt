@@ -1,0 +1,32 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh1\Desktop\lab7
+> run RandomWalk
+
+
+Lab 7 written by VILVESH SRINIVASAN
+
+Enter the size you want the radius of the circle to be. Make sure the radius is within the bounds of being equal to or between 50 to 400 pixels
+ [46]
+
+The radius size you entered was not within the bounds of being equal to or between 50 to 400 pixels.
+ [56]
+
+What color do you want the circle to be? Your choices are RED, GREEN, and BLUE.
+ [t]
+
+You did not type in one of the available options.
+What color do you want the circle to be? Your choices are RED, GREEN, and BLUE.
+ [r]
+
+Enter the color your want your random walk to be. Your choices are RED, GREEN, and BLUE.
+ [y]
+
+You did not type in one of the available options.
+Enter the color your want your random walk to be. Your choices are RED, GREEN, and BLUE.
+ [b]
+
+
+The radius of your circle is 56 pixels!
+The color of your cirlce is red!
+The color of your random walk is blue!
+It took 1900 steps to get to the edge of the circle!
+> 

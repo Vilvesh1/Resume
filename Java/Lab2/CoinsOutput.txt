@@ -1,0 +1,17 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh Rules\Desktop\CS JAVA CODE\Lab2
+> run Coins
+
+Lab 2 written by VILVESH SRINIVASAN
+Enter the amount of quarters:
+ [DrJava Input Box]
+Enter the amount of dimes:
+ [DrJava Input Box]
+Enter the amount of nickels:
+ [DrJava Input Box]
+Enter the amount of pennies:
+ [DrJava Input Box]
+Number of Coins = 4
+Total Value = $0.41
+ [DrJava Input Box]
+You have: 1 quarters 0 dimes 1 nickels 2 pennies 
+> 

@@ -1,0 +1,35 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh Rules\Desktop\Second semester stuff\CS JAVA CODE\lab5
+> run Circles
+
+
+Lab 5 written by VILVESH SRINIVASAN
+
+Enter the center x-coordinate for blue circle 1[45]
+
+Enter the center y-coordinate for blue circle 1[45]
+
+Enter the radius for blue circle 1[45]
+
+Enter the center x-coordinate for red circle 2[200]
+
+Enter the center y-coordinate for red circle 2[200]
+
+Enter the radius for red circle 2[45]
+
+Enter the center x-coordinate for green circle 3[56]
+
+Enter the center y-coordinate for green circle 3[56]
+
+Enter the radius for green circle 3[67]
+
+
+Blue circle 1 is equal to red circle 2
+
+Green circle 3 is bigger than  red circle 2
+
+Blue circle 1 doesn't intersect red circle 2
+
+Green circle 3 doesn't intersect red circle 2
+
+Green circle 3 intersects blue circle 1
+> 

@@ -1,0 +1,18 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh1\Documents\Work\College Years\Second Year\CS JAVA CODE\lab6
+> run Playoffs
+
+Lab 6 written by VILVESH SRINIVASAN
+
+What is the percent chance Team 1 will win a game? (make sure your value writen as a whole number and is between or equal to 0 and 100 and also don't put percent sign Ex 51)[444]
+
+
+Try typing a whole number between or equal to 0 and 100 also don't put percent sign if you did(Ex 51)[63]
+
+
+The Score Board Shows the first team to win 10 playoff games more than the other team
+|1| |1| |1| |1| |1| |2| |2| |1| |1| |1| |1| |2| |1| |1| |1| |1| 
+KEY (1 = Team 1 won) (2 = Team 2 won)
+
+Team 1 won 10 games more than the other team first!!
+
+> 

@@ -1,0 +1,50 @@
+Welcome to DrJava.  Working directory is C:\Users\Vilvesh1\Documents\Work\College Years\Second Year\CS JAVA CODE\lab8\lab8
+> run Binary
+
+
+Lab 8 written by VILVESH SRINIVASAN
+
+What positive whole number would you like to convert to binary?
+ [+]
+
+
+Not a whole number; try again.
+What whole number would you like to convert to binary?
+ [h]
+
+
+Not a whole number; try again.
+What whole number would you like to convert to binary?
+ [hat]
+
+
+Not a positive whole number; try again.
+What whole number would you like to convert to binary?
+ [-67]
+
+
+Not a whole number; try again.
+What whole number would you like to convert to binary?
+ [67.3]
+
+
+Not a whole number; try again.
+What whole number would you like to convert to binary?
+ [67]
+
+
+Your decimal number converted to binary is 1000011
+
+Do you want to enter another number to convert to decimal.  Your choices are yes or no.
+ [yes]
+
+
+What whole number would yo like to convert to binary?
+ [54]
+
+
+Your decimal number converted to binary is 110110
+
+Do you want to enter another number to convert to decimal.  Your choices are yes or no.
+ [no]
+> 

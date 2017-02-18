@@ -1,0 +1,16 @@
+Welcome to DrJava.  Working directory is V:\drjava\lectures
+> run Initials
+          
+
+          Lab 0 written by VILVESH SRINIVASAN
+                                                    
+V               V  G G G G G G       S S S S S S S S
+ V             V   G                 S
+  V           V    G                 S
+   V         V     G                 S
+    V       V      G                 S
+     V     V       G       G G GG    S S S S S S S S
+      V   V        G            G                  S
+       V V         G            G                  S
+        V          G G G G G G GG    S S S S S S S S
+> 
