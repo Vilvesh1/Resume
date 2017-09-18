@@ -1,0 +1,79 @@
+/*
+ * Program will trace how Fibonacci numbers are generated recursively (for any N) and display the trace 
+ * Vilvesh Srinivasan
+ * COSC 2436
+ */
+
+import java.util.Scanner;
+
+public class A5{
+     
+      public static void main(String[] args) {
+        
+        while (true) {
+        
+        Scanner input = new Scanner(System.in);
+        Scanner input1 = new Scanner(System.in);
+        System.out.println("Enter the number: " );
+        int fibnumber = input.nextInt();
+        fibtrace(fibnumber, 0);
+        
+       System.out.println("Do you wish to continue? To exit enter 0 or to continue enter any integer");
+       
+       int i = input1.nextInt();
+       
+       if ( i == 0) {
+        break;
+       }  
+        
+    }
+}
+
+public static int fibtrace(int  x, int lvl)
+
+{
+
+ int i;
+ 
+ for (i = 0; i < lvl; i++) {
+
+         System.out.print(" ");
+        
+     }
+ 
+ 
+ System.out.println("Entering Level: " + lvl);
+
+
+ if (x == 1 || x == 0) {
+
+        for (i = 0; i < lvl; i++) {
+         System.out.print(" ");
+        }
+
+         System.out.println ("Exiting level: " + lvl);
+ 
+        return x;
+        
+}
+        
+        else {
+          
+          int fW = fibtrace(x- 2,lvl+2) + fibtrace(x - 1,lvl+1);
+  
+          for ( i = 0; i < lvl; i++) {
+
+          System.out.print(" ");
+          
+          }
+
+          System.out.println("Exiting level: " + lvl);
+
+          return x;
+
+        }
+ 
+}
+}
+
+     

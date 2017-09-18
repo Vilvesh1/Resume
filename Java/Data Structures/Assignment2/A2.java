@@ -1,0 +1,130 @@
+/*
+ * Menu based program with the following array-based queue functions
+ * Vilvesh Srinivasan
+ * COSC 2436
+ */
+
+import java.util.Scanner;
+
+public class A2 {
+    public static int front = 0;
+    public static int rear = -1;
+    public static int i = 1;
+    public static String[] mainArray = null;
+    public static int count = 0;
+    public static int size = 0;
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        while(i == 1){
+            if(isEmpty()){
+              System.out.println("How big is the Array?");
+              size = input.nextInt();
+              mainArray = new String[size];
+            }
+             System.out.println("Type the number from Menu");
+             System.out.println("1. ADD (an element to the end of queue)");
+             System.out.println("2. DELETE (an element from the front of queue)");
+             System.out.println("3. SHOW (all elements, starting at first, ending at last)");
+             System.out.println("4. COUNT (total number of elements)");
+             System.out.println("5. CLEAR (initialize queue)");
+             System.out.println("6. Exit");
+             
+          int choice = input.nextInt();
+          switch(choice){
+              case 1:
+    
+                  System.out.println("What do you want to add?");
+                  Scanner input1 = new Scanner(System.in);
+                  String valueAdd = input1.nextLine();
+                  add(valueAdd);
+                  break;
+                  
+                  
+              case 2:
+
+                  delete(); 
+                  break;
+                  
+              case 3:
+                  show();
+                  break;
+                  
+              case 4:
+                  System.out.println(count());
+                  break;
+                  
+              case 5:
+                  clear();
+                  break;
+                  
+              case 6:
+                  i++;
+                  break;
+                  
+              default:
+                  System.out.println("Try Again. Thats not an option");
+                  break;
+                  
+          }
+             
+        }
+    }
+    public static void add(String value){
+      if (isFull() || rear == (size-1)) {
+      System.out.println("You will exceed array size if you add anymore values");
+      }
+      else{
+        rear++;
+        mainArray[rear] = value;
+        count++;
+      }
+    }
+    
+    public static void delete(){
+        mainArray[front] = null;
+        count--;
+        if (!isEmpty()) {
+        front++;
+        }
+        else {
+        front = 0;
+        }
+    }
+    
+    public static void show(){
+        for(int i= front; i <= rear; i++){
+             String valueAtHand = mainArray[i];
+             System.out.println(valueAtHand);
+         
+        }
+    }
+    
+    public static int count(){
+        return count;
+    }
+    
+    public static boolean isFull(){
+      if(count == size){
+        return true;
+      }else{
+        return false;
+      }
+    }
+    
+     public static boolean isEmpty(){
+      if(mainArray == null){
+        return true;
+      }else{
+        return false;
+      }
+    }
+     
+    public static void clear(){
+        mainArray = null;
+        count = 0;
+        rear = -1;
+        front = 0;
+        
+    }
+    
+}

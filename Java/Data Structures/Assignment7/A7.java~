@@ -1,0 +1,105 @@
+/*
+ * Program will implement Heap Sort and a slow sort, Bubble Sort. The program will generate a very large array (30,000 or more) of bytes and sort increasingly larger portions of the array (5000, 10000, ..., 30000) with both algorithms.
+ * Vilvesh Srinivasan
+ * COSC 2436
+ */
+
+import java.util.Random;
+import java.util.Arrays;
+
+public class A7{
+  
+      public static int N;
+      
+      public static void main(String[] args) {
+        
+       int x;
+       double bTime;
+       double fTime;
+       double cTime;
+       byte[] a;
+       byte[] hs;
+       byte[] bs;
+       int ctts = 1000;
+
+        
+       a = new byte[30000];
+       new Random().nextBytes(a);
+
+       x = 1; 
+       
+       while(x <= 6){
+           hs = Arrays.copyOfRange(a, 0, 5000*x);
+           bs = Arrays.copyOfRange(a, 0, 5000*x);
+           bTime = System.currentTimeMillis();
+           sort(hs);
+           fTime   = System.currentTimeMillis();
+           cTime = (fTime - bTime)/ctts;
+           System.out.println("Time to sort array for first "+5000*x+" elements using Heap Sort: "+cTime+" seconds.");
+           bTime = System.currentTimeMillis();
+           bSortation(bs);
+           fTime   = System.currentTimeMillis();
+           cTime = (fTime - bTime)/ ctts;
+           System.out.println("Time to sort array for first "+5000*x+" elements using Bubble Sort: "+cTime+" seconds.");
+           x++;
+       }
+    }
+
+    
+    public static void sort(byte arr[]) {       
+        heapify(arr);        
+        for (int i = N; i > 0; i--)
+        {
+            swap(arr,0, i);
+            N = N-1;
+            maxheap(arr, 0);
+        }
+    }     
+    public static void heapify(byte arr[]) {
+        N = arr.length-1;
+        for (int i = N/2; i >= 0; i--)
+            maxheap(arr, i);        
+    }       
+    public static void maxheap(byte arr[], int i) { 
+        int left = 2*i ;
+        int right = 2*i + 1;
+        int max = i;
+        if (left <= N && arr[left] > arr[i])
+            max = left;
+        if (right <= N && arr[right] > arr[max])        
+            max = right;
+ 
+        if (max != i)
+        {
+            swap(arr, i, max);
+            maxheap(arr, max);
+        }
+    }    
+    public static void swap(byte arr[], int i, int j) {
+        byte tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp; 
+    }
+    
+    
+    public static void bSortation(byte[] bArray) {
+
+        int w;
+        int k;
+        int h;
+        byte st;
+        
+        w = bArray.length;
+        for(k = 0; k < w; k++){
+            for(h = 1; h < (w-k); h++){
+                if(bArray [h-1] > bArray [h]){
+                     st = bArray [h-1];
+                     bArray [h-1] = bArray [h];
+                     bArray [h] = st;
+                 }
+             }
+         }
+      }
+     
+ 
+}
